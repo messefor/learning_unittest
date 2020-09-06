@@ -1,0 +1,36 @@
+
+data/*
+figs/*
+models/*
+notebooks/*
+
+_temp/
+_bk/
+
+# IPython notebook
+*.ipynb
+
+# Archives / Data Formats
+*.bz2
+*.pkl
+*.zip
+
+*.rds
+*.csv
+
+
+# Image files
+*.png
+
+!config/pipeline_list/*.csv
+
+# Cache files
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# Virtual Environments
+.venv/
+
+!.gitkeep
